@@ -1,4 +1,6 @@
 <script>
+	  import AliasGenerator from './AliasGenerator.svelte';
+
 	// You can add any Svelte-specific JavaScript here
   </script>
   
@@ -62,6 +64,11 @@
 	  <h2>About This Tool</h2>
 	  <p>This utility helps gamers create custom chat aliases for Counter-Strike 2, enhancing their gaming experience with personalized and fun messages.</p>
 	</div>
+
+	  <!-- Alias Generator Section -->
+	  <div class="section">
+		<AliasGenerator />
+	  </div>
   
 	<!-- Additional sections for socials, GitHub, and donation can be added here -->
 	<div class="section">
